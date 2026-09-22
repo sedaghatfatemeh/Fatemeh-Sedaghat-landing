@@ -829,3 +829,32 @@ footer {
     display: none;
   }
 }
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    padding: 14px 28px;
+    border-radius: 18px;
+
+    background: transparent;
+    border: 2px solid #111827;
+
+    color: #111827;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #111827;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.resume-btn:active {
+    transform: translateY(0);
+}
