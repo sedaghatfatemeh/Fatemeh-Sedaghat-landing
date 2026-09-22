@@ -27,7 +27,7 @@ const observer = new IntersectionObserver(
 
 const reveals = document.querySelectorAll('.reveal');
 
-const observer = new IntersectionObserver((entries) => {
+const observernew = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.classList.add('active');
@@ -37,7 +37,7 @@ const observer = new IntersectionObserver((entries) => {
     threshold: 0.15
 });
 
-reveals.forEach(el => observer.observe(el));
+reveals.forEach(el => observernew.observe(el));
 document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
 
 document.getElementById("year").textContent = new Date().getFullYear();
