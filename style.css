@@ -180,6 +180,11 @@ button { font: inherit; }
     font-size: clamp(38px, 5vw, 52px);
     line-height: 1.2;
 }
+.hero p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 650px;
+}
 .hero h1 span {
   color: transparent;
   background: linear-gradient(90deg, var(--accent), var(--accent-2));
