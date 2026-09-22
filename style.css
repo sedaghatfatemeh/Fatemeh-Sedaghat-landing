@@ -170,11 +170,15 @@ button { font: inherit; }
   box-shadow: 0 0 0 5px rgba(102,227,196,.12);
 }
 
-.hero h1 {
+/*.hero h1 {
   margin: 28px 0 24px;
   font-size: clamp(2.8rem, 5.5vw, 5.4rem);
   line-height: 1.16;
   letter-spacing: -.045em;
+}*/
+.hero h1 {
+    font-size: clamp(38px, 5vw, 52px);
+    line-height: 1.2;
 }
 .hero h1 span {
   color: transparent;
