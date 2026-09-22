@@ -123,7 +123,7 @@ button { font: inherit; }
   margin: 5px 0;
 }
 
-.hero {
+/*.hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -134,8 +134,13 @@ button { font: inherit; }
   color: var(--white);
   padding-top: 150px;
   overflow: hidden;
+}*/
+.hero {
+    min-height: auto;
+    padding: 70px 0 80px;
+    display: flex;
+    align-items: center;
 }
-
 .hero-grid {
   position: relative;
   z-index: 2;
